@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainSceneController">
+   <children>
+      <BorderPane layoutX="76.0" layoutY="58.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane prefHeight="578.0" prefWidth="202.0" style="-fx-background-color: #9ad4f4;" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <AnchorPane prefHeight="578.0" prefWidth="474.0" style="-fx-background-color: #9ad4f4;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="132.0" layoutY="206.0" minWidth="50.0" mnemonicParsing="false" onAction="#EmpTable" prefHeight="180.0" prefWidth="182.0" style="-fx-background-color: #99A3A4;">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Premium%20Vector%20_%20Businessmen%20consulting.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="-41.0" layoutY="261.0" mnemonicParsing="false" onAction="#ContractTable" prefHeight="170.0" prefWidth="182.0" style="-fx-background-color: #99A3A4;">
+                     <graphic>
+                        <ImageView fitHeight="133.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Contract%20with%20personal%20sign.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="91.0" layoutY="408.0" mnemonicParsing="false" onAction="#RentTable" prefHeight="156.0" prefWidth="185.0" style="-fx-background-color: #99A3A4;">
+                     <graphic>
+                        <ImageView fitHeight="133.0" fitWidth="169.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Property%20Rental%20Concept%20Paper.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="254.0" layoutY="356.0" mnemonicParsing="false" onAction="#Bill" prefHeight="170.0" prefWidth="205.0" style="-fx-background-color: #99A3A4;">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Invoice%20bill%20for%20Payment%20of%20utility,%20bank,%20restaurant%20and%20other%20bill%20👇🏼.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="162.0" layoutY="54.0" mnemonicParsing="false" onAction="#PropartyTable" prefHeight="166.0" prefWidth="184.0" style="-fx-background-color: #99A3A4;">
+                     <graphic>
+                        <ImageView fitHeight="133.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Free%20Vector%20_%20Flat%20design%20real%20estate%20searching%20with%20gadgets.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="-85.0" layoutY="89.0" mnemonicParsing="false" onAction="#TenantTable" prefHeight="154.0" prefWidth="233.0" style="-fx-background-color: #99A3A4;">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Construction%20&amp;%20Real%20Estate%20Vector%20Illustration%20on%20Yellow%20Images%20Creative%20Store.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="327.0" layoutY="204.0" mnemonicParsing="false" onAction="#SponserTable" prefHeight="161.0" prefWidth="175.0" style="-fx-background-color: #99A3A4;">
+                     <graphic>
+                        <ImageView fitHeight="133.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Friendly%20cooperation%20RGB%20color%20icon.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+         <right>
+            <AnchorPane prefHeight="578.0" prefWidth="186.0" style="-fx-background-color: #9ad4f4;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="104.0" layoutY="513.0" mnemonicParsing="false" onAction="#chooseField" style="-fx-background-color: #9ad4f4;">
+                     <graphic>
+                        <ImageView fitHeight="69.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/3368865.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
+
